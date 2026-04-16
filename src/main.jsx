@@ -8,6 +8,7 @@ import FriendDetails from "./pages/FriendDetails";
 import Home from "./pages/Home";
 import Timeline from './pages/Timeline';
 import { TimelineProvider } from "./context/TimelineContext";
+import Stats from './pages/Stats';
 
 
 const router = createBrowserRouter(
@@ -27,6 +28,10 @@ const router = createBrowserRouter(
      { 
       path: '/timeline',
      element: <Timeline /> 
+    },
+    { 
+      path: '/stats',
+     element: <Stats.apply /> 
     },
       ],
     },
