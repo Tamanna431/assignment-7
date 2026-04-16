@@ -5,6 +5,8 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { TimelineContext } from "../context/TimelineContext";
 import friendsData from "../data/friends.json";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faClock, faBoxArchive, faTrash } from "@fortawesome/free-solid-svg-icons";
 
 const FriendDetails = () => {
   const { id } = useParams();
@@ -62,13 +64,16 @@ const FriendDetails = () => {
 
           <div className="space-y-3">
             <button className="w-full py-2 border border-gray-300 rounded-md hover:bg-gray-50 flex items-center justify-center gap-2">
-              <span>⏰</span> Snooze 2 Weeks
+              <FontAwesomeIcon icon={faClock} />
+              <span>Snooze 2 Weeks</span>
             </button>
             <button className="w-full py-2 border border-gray-300 rounded-md hover:bg-gray-50 flex items-center justify-center gap-2">
-              <span>📦</span> Archive
+              <FontAwesomeIcon icon={faBoxArchive} />
+              <span>Archive</span>
             </button>
             <button className="w-full py-2 border border-red-300 text-red-600 rounded-md hover:bg-red-50 flex items-center justify-center gap-2">
-              <span>🗑️</span> Delete
+              <FontAwesomeIcon icon={faTrash} />
+              <span>Delete</span>
             </button>
           </div>
         </div>

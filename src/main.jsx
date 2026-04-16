@@ -9,6 +9,7 @@ import Home from "./pages/Home";
 import Timeline from './pages/Timeline';
 import { TimelineProvider } from "./context/TimelineContext";
 import Stats from './pages/Stats';
+import NotFound from './pages/NotFound';
 
 
 const router = createBrowserRouter(
@@ -31,7 +32,11 @@ const router = createBrowserRouter(
     },
     { 
       path: '/stats',
-     element: <Stats.apply /> 
+     element: <Stats/> 
+    },
+    { 
+      path: '/notfound',
+     element: <NotFound/> 
     },
       ],
     },
