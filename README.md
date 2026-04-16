@@ -1,16 +1,20 @@
-# React + Vite
+**My project name is
+KeenKeeper
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Short Description of the project
+KeenKeeper is the simple web app that helps us to keep track of your friendships.It shows when we last talked to someone and reminds me to reach out before too much time passes.We can log calls,texts or video charts with one click and the app keeps a clean history of all our interactions. i  to make staying in touch with friends easier and more flexible.
 
-Currently, two official plugins are available:
+**Technologies used
+#React.js(with vite) for the frontend
+#Tailwind CSS for styling and layout
+#React router DOM for page navigation
+#Rechart for the analytic pie chart
+#Lucid React & FontAwesome for icons
+#Local storage
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Key Feature
+Home page:All friends are shown in clean grid in a color coded texts.This is make it easy to spot who have not talked to in while.
 
-## React Compiler
+FriendDetails Page: In this page,we can see each friends details and make text,audio,video calls.This app instantly save the interaction,adds it timeline and shows a success pop up.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Visual Stats:The timeline page keeps the history of all your first interactions.Stats page shows a pie chart of how usually stay in touch. 
