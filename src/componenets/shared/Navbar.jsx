@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { Home, Clock, BarChart } from "lucide-react";
 
-const BottomNav = () => {
+const Navbar = () => {
   return (
     <div className="bg-white border-t border-gray-200 py-4 mt-auto">
       <div className="container mx-auto px-4 flex justify-between items-center">
@@ -59,4 +59,4 @@ const BottomNav = () => {
   );
 };
 
-export default BottomNav;
+export default Navbar;
