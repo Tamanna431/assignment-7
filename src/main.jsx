@@ -6,6 +6,7 @@ import { createBrowserRouter } from "react-router";
 import RootLayout from './layout/RootLayout';
 import FriendDetails from "./pages/FriendDetails";
 import Home from "./pages/Home";
+import { TimelineProvider } from "./context/TimelineContext";
 
 
 const router = createBrowserRouter(
@@ -30,6 +31,9 @@ const router = createBrowserRouter(
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-   <RouterProvider router={router} />
+    <TimelineProvider>
+  <RouterProvider router={router} />
+    </TimelineProvider>
+   
   </StrictMode>,
 )
