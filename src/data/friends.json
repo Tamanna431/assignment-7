@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Emma Wilson",
+    "picture": "https://i.pravatar.cc/150?img=5",
+    "email": "emma.wilson@email.com",
+    "days_since_contact": 62,
+    "status": "overdue",
+    "tags": ["college", "family"],
+    "bio": "Former colleague, great mentor",
+    "goal": 30,
+    "next_due_date": "2026-02-27"
+  },
+  {
+    "id": 2,
+    "name": "David Kim",
+    "picture": "https://i.pravatar.cc/150?img=11",
+    "email": "david.kim@email.com",
+    "days_since_contact": 12,
+    "status": "on-track",
+    "tags": ["work", "gym buddy"],
+    "bio": "Met at the gym. Love discussing tech together.",
+    "goal": 14,
+    "next_due_date": "2026-04-20"
+  },
+  {
+    "id": 3,
+    "name": "Lisa Nakamura",
+    "picture": "https://i.pravatar.cc/150?img=9",
+    "email": "lisa.n@email.com",
+    "days_since_contact": 25,
+    "status": "almost due",
+    "tags": ["college", "close friend"],
+    "bio": "Roommate from university days. Love hiking together.",
+    "goal": 21,
+    "next_due_date": "2026-04-25"
+  },
+  {
+    "id": 4,
+    "name": "James Wright",
+    "picture": "https://i.pravatar.cc/150?img=13",
+    "email": "james.wright@email.com",
+    "days_since_contact": 45,
+    "status": "overdue",
+    "tags": ["work", "mentor"],
+    "bio": "My first manager. Still gives great career advice.",
+    "goal": 30,
+    "next_due_date": "2026-03-15"
+  },
+  {
+    "id": 5,
+    "name": "Sarah Chen",
+    "picture": "https://i.pravatar.cc/150?img=10",
+    "email": "sarah.chen@email.com",
+    "days_since_contact": 8,
+    "status": "on-track",
+    "tags": ["neighbor", "book club"],
+    "bio": "Lives next door. We have a weekly book club.",
+    "goal": 14,
+    "next_due_date": "2026-04-22"
+  },
+  {
+    "id": 6,
+    "name": "Marcus Johnson",
+    "picture": "https://i.pravatar.cc/150?img=3",
+    "email": "marcus.j@email.com",
+    "days_since_contact": 18,
+    "status": "almost due",
+    "tags": ["college", "basketball"],
+    "bio": "Played basketball together in college.",
+    "goal": 21,
+    "next_due_date": "2026-04-24"
+  },
+  {
+    "id": 7,
+    "name": "Aisha Patel",
+    "picture": "https://i.pravatar.cc/150?img=20",
+    "email": "aisha.patel@email.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["work", "project partner"],
+    "bio": "Current project partner. Great collaborator.",
+    "goal": 14,
+    "next_due_date": "2026-04-19"
+  },
+  {
+    "id": 8,
+    "name": "Ryan O'Brien",
+    "picture": "https://i.pravatar.cc/150?img=12",
+    "email": "ryan.obrien@email.com",
+    "days_since_contact": 35,
+    "status": "overdue",
+    "tags": ["childhood friend", "gaming"],
+    "bio": "Known since childhood. Gaming buddies.",
+    "goal": 30,
+    "next_due_date": "2026-03-20"
+  }
+]
