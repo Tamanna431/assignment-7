@@ -94,5 +94,54 @@
     "bio": "Known since childhood. Gaming buddies.",
     "goal": 30,
     "next_due_date": "2026-03-20"
+  },
+  {
+    "id": 9,
+    "name": "Ryan O'Brien",
+    "picture": "https://i.pravatar.cc/150?img=12",
+    "email": "ryan.obrien@email.com",
+    "days_since_contact": 35,
+    "status": "overdue",
+    "tags": ["childhood friend", "gaming"],
+    "bio": "Known since childhood. Gaming buddies.",
+    "goal": 30,
+    "next_due_date": "2026-03-20"
+  },
+  {
+    "id": 10,
+    "name": "Marcus Johnson",
+    "picture": "https://i.pravatar.cc/150?img=3",
+    "email": "marcus.j@email.com",
+    "days_since_contact": 18,
+    "status": "almost due",
+    "tags": ["college", "basketball"],
+    "bio": "Played basketball together in college.",
+    "goal": 21,
+    "next_due_date": "2026-04-24"
+  },
+   {
+    "id": 11,
+    "name": "James Wright",
+    "picture": "https://i.pravatar.cc/150?img=13",
+    "email": "james.wright@email.com",
+    "days_since_contact": 45,
+    "status": "overdue",
+    "tags": ["work", "mentor"],
+    "bio": "My first manager. Still gives great career advice.",
+    "goal": 30,
+    "next_due_date": "2026-03-15"
+  },
+  {
+    "id": 12,
+    "name": "Sarah Chen",
+    "picture": "https://i.pravatar.cc/150?img=10",
+    "email": "sarah.chen@email.com",
+    "days_since_contact": 8,
+    "status": "on-track",
+    "tags": ["neighbor", "book club"],
+    "bio": "Lives next door. We have a weekly book club.",
+    "goal": 14,
+    "next_due_date": "2026-04-22"
   }
+
 ]
