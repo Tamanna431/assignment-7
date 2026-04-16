@@ -22,14 +22,14 @@ const NotFound = () => {
           Looks like this friendship connection doesn't exist yet. 
           Time to make a new one!
         </p>
-
-        <Link 
+         <Link 
           to="/" 
           className="inline-flex items-center justify-center gap-2 px-8 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition font-medium shadow-lg"
         >
           <Home size={20} />
           Back to Your Friends
         </Link>
+       
       </div>
     </div>
   );
